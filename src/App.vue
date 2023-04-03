@@ -6,7 +6,7 @@ import {RouterLink, RouterView} from 'vue-router'
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        Rune Clausen
+        RuneClausen.dk
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarCollapseContent" aria-controls="navbarCollapseContent"
@@ -17,6 +17,15 @@ import {RouterLink, RouterView} from 'vue-router'
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
             <RouterLink class="nav-link" to="/">Home</RouterLink>
+          </li>
+          <li class="nav-item">
+            <RouterLink class="nav-link" to="/travels">Travels</RouterLink>
+          </li>
+          <li class="nav-item">
+            <RouterLink class="nav-link" to="/running">Running</RouterLink>
+          </li>
+          <li class="nav-item">
+            <RouterLink class="nav-link" to="/about">About</RouterLink>
           </li>
           <li class="nav-item">
             <RouterLink class="nav-link" to="/cv">CV</RouterLink>
