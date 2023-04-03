@@ -5,6 +5,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "lib": ["es2019", "dom"],
+    "allowJs": true,
     "paths": {
       "@/*": ["./src/*"]
     }
